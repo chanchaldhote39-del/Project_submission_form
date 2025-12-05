@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Project Submission Form</h2>
+
+    <form id="projectForm">
+      
+      <label>Full Name</label>
+      <input type="text" id="name" placeholder="Enter full name">
+
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Enter email">
+
+      <label>Project Title</label>
+      <input type="text" id="title" placeholder="Enter title">
+
+      <label>Project Description</label>
+      <textarea id="description" placeholder="Write project details here..."></textarea>
+
+      <button type="submit" class="btn">Submit</button>
+
+      <p id="error" class="error"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
