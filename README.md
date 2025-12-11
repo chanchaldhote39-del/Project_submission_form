@@ -1,0 +1,1 @@
+This repository contains a Project Submission Form used for internship or academic project submissions. It includes sections like project details, description, technologies used, student declaration, and evaluation sheet.
